@@ -1,0 +1,25 @@
+.areaBar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  color: #fff;
+  font-size: 40px;
+}
+li {
+    font-size: 20px;
+  list-style: none;
+  color: #fff;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.7 all;
+}
+li:hover {
+  color: #ffb612;
+}
+ul {
+  display: flex;
+  margin-right: 40px ;
+}

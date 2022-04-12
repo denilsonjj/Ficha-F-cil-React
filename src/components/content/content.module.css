@@ -1,0 +1,25 @@
+
+.section{
+    background-color:#212529 ;
+    color: white;
+}
+h1{
+    margin-top: 0%;
+    padding: 10px ;
+}
+
+.principal {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.span {
+  color: #ffb612;
+}
+.linha{
+  border: 1px solid gray;
+  width: 10%;
+  display: flex;
+  margin: 20px auto;
+}
+

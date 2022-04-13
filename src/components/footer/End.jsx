@@ -1,14 +1,12 @@
 import React from "react"
 import style from "./End.module.css"
-import linha from "../content/content.module.css"
+import ContatoDev from "./ContatoDev"
 
 
 const End = ()=>{
 return(
 <div className={style.footerArea}>
-<p className={style.footerConteud}>Contato do Desenvolvedor</p>
-<div className={linha.linha}></div>
-
+<ContatoDev />
 </div>
 )
 }

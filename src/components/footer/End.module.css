@@ -13,3 +13,7 @@
 .footerConteud:hover{
     color: #fff;
 }
+.redes{
+    margin: 10px;
+    cursor: pointer;
+}

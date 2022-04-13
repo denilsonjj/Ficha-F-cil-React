@@ -1,3 +1,4 @@
+import React from "react"
 import style from "./End.module.css"
 import linha from "../content/content.module.css"
 

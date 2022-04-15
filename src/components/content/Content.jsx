@@ -20,8 +20,8 @@ const Content = () => {
         </p>
       </div>
       <div className={style.linha}></div>
-         <div classname={style.section}>
-            <p className={style.principal}>
+      <div classname={style.section}>
+        <p className={style.principal}>
           Futuramente mais funções serão adiconadas, como "login" e o "Fale
           conosco", mas por enquanto você já consegue acessar sua ficha!
         </p>

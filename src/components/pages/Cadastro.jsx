@@ -1,7 +1,12 @@
 import React from "react";
+import NavBar from "../Nav/Navbar";
 const Cadastro = () => {
   return (
-      <h1>Cadastro</h1>
+    <>
+    <NavBar />
+    <h1>Cadastro</h1>
+    </>
+      
   ) 
 };
 export default Cadastro;

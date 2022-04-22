@@ -1,8 +1,8 @@
 import React from 'react';
 import  {BrowserRouter as Router, Routes , Route } from 'react-router-dom';
 import Login from "./components/pages/Login"
-import Cadastro from "./components/pages/Cadastro"
 import  Home from "./components/pages/home"
+import Contato from './components/pages/Contato';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     </Route>
     <Route path='/Login' element ={<Login/>}>
     </Route>
-    <Route path='/Cadastro' element ={<Cadastro/>}>
+    <Route path='/Contato' element ={<Contato/>}>
     </Route>
      </Routes>
    </Router>

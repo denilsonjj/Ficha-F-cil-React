@@ -36,6 +36,14 @@ p{
     margin-bottom: 40px;
     color: #fff;
 }
+.forget{
+    cursor: pointer;
+ 
+}
+.forget:hover{
+    color: #ffb612;
+       transition: 0.7s all;
+}
 .button{
     color: #fff;
     width: 200px ;
@@ -46,17 +54,37 @@ p{
     background-color: transparent;
 }
 .input_form{
+    font-size: 18px;
     width: 300px;
     height: 30px;
     border: none;
     border-radius: 2px;
     background-color: black;
     outline: none;
-    cursor: pointer;
     color: #fff;
+    margin: 10px;
+    padding: 10px;
 }
 .input_form::placeholder{
     color: #fff;
+}
+.icons{
+    color: #ffb612;
+}
+input[type="submit"]{
+  color: #ffb612;
+    height: 40px;
+    cursor: pointer;
+    border: 0.2em solid #fff;
+    border-radius: 0.8em;
+    background-color: transparent;
+    width: 250px
+}
+input[type="submit"]:hover{
+    
+    transition: 0.7s all;
+    border: 0.2em solid #ffb612;
+
 }
 
 

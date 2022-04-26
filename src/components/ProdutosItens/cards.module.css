@@ -1,0 +1,12 @@
+.area_Card{
+    margin: 10px;
+}
+.card{
+    height: 180px;
+    width: 240px;
+    margin: 10px;
+}
+.itensA{
+    display: flex;
+    justify-content: space-between;
+}

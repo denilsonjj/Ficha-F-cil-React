@@ -1,0 +1,10 @@
+.title{
+    margin-top: 0;
+}
+.linha{
+    border: 1px solid gray;
+    width: 100px;
+    display: flex;
+    margin: 20px auto;
+    margin-right: 10px;
+  }

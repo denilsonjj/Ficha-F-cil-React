@@ -5,7 +5,6 @@ import { Container} from "@mui/material";
 import Cards from "../ProdutosItens/Cards";
 import Menu from "../ProdutosItens/Menu";
 import "../../App.css"
-import { maxWidth } from "@mui/system";
 
 const Produtos = () => {
   return (

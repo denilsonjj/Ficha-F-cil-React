@@ -1,11 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import NavBar from "../Nav/Navbar";
 import style from "./Login.module.css";
 import { AiOutlineMail } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { RiLockPasswordLine } from "react-icons/ri";
 
+
 const Login = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("funcionei");
+    console.log(
+      "Nome: " + name 
+    + "\nEmail : " + email 
+    + "\nSenha: " + password);
+  };
+
   return (
     <>
       <NavBar />
@@ -26,7 +40,10 @@ const Login = () => {
             <span style={{ color: "#ffb612" }}>a conta</span>
           </h3>
           <p style={{ color: "gray" }}>Preencha seus dados</p>
-          <form style={{ display: "flex", flexDirection: "column" }}>
+          <form
+            onSubmit={handleSubmit}
+            style={{ display: "flex", flexDirection: "column" }}
+          >
             <div>
               <>
                 <AiOutlineUser className={style.icons} />
@@ -34,6 +51,9 @@ const Login = () => {
                   className={style.input_form}
                   type="text"
                   placeholder="Nome"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  required
                 />
               </>
               <div>
@@ -42,6 +62,9 @@ const Login = () => {
                   className={style.input_form}
                   type="email"
                   placeholder="Email"
+                  value={email}
+                  onChange={(e)=> setEmail(e.target.value)}
+                  required
                 />
               </div>
               <div>
@@ -50,6 +73,9 @@ const Login = () => {
                   className={style.input_form}
                   type="password"
                   placeholder="Senha"
+                  value={password}
+                  onChange={(e)=> setPassword(e.target.value)}
+                  required
                 />
               </div>
               <input type="submit" value="Enviar" />

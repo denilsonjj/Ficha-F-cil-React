@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <div className={style.areaBar}>
       <h1 className={style.title}>
-        Ficha<span style={{ color: "#ffb612" }}>Fácil</span>
+        Sua<span style={{ color: "#ffb612" }}>Loja</span>
       </h1>
       <div>
         <ul>
